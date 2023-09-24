@@ -1,7 +1,9 @@
 /* common */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+/* fonts */
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 
 
 html {
@@ -21,8 +23,11 @@ a {
     text-decoration: none;
 }
 
-.page-header{
-
+.page-header {
+    background: url(../image/01.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .brand{
